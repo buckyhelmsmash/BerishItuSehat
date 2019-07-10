@@ -1,9 +1,14 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - BudiWatiManager
+    - Clicked
     - DialogueManager
     - DragScript
     - EndgameManager
+    - MainMenuManager
+    - Outline
+    - OutlineManager
     - TrashManager
     Unity.TextMeshPro.dll:
     - TMPro.TMP_ColorGradient
@@ -22,7 +27,137 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
   sceneClasses:
-    Assets/_Scenes/SampleScene.unity:
+    Assets/_Scenes/Budi&Wati.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 60
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 9288}
+    - Class: 114
+      Script: {instanceID: 9300}
+    - Class: 114
+      Script: {instanceID: 9364}
+    - Class: 114
+      Script: {instanceID: 9366}
+    - Class: 114
+      Script: {instanceID: 9372}
+    - Class: 114
+      Script: {instanceID: 9378}
+    - Class: 114
+      Script: {instanceID: 9386}
+    - Class: 114
+      Script: {instanceID: 9422}
+    - Class: 114
+      Script: {instanceID: 9602}
+    - Class: 114
+      Script: {instanceID: 9858}
+    - Class: 114
+      Script: {instanceID: 10140}
+    - Class: 114
+      Script: {instanceID: 10300}
+    - Class: 114
+      Script: {instanceID: 10676}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/_Scenes/KategoriSampah.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 9288}
+    - Class: 114
+      Script: {instanceID: 9364}
+    - Class: 114
+      Script: {instanceID: 9366}
+    - Class: 114
+      Script: {instanceID: 9372}
+    - Class: 114
+      Script: {instanceID: 9378}
+    - Class: 114
+      Script: {instanceID: 9386}
+    - Class: 114
+      Script: {instanceID: 9422}
+    - Class: 114
+      Script: {instanceID: 9466}
+    - Class: 114
+      Script: {instanceID: 9930}
+    - Class: 114
+      Script: {instanceID: 10044}
+    - Class: 114
+      Script: {instanceID: 10140}
+    - Class: 114
+      Script: {instanceID: 10300}
+    - Class: 114
+      Script: {instanceID: 14762}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/_Scenes/MainMenu.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -37,46 +172,46 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 49
       Script: {instanceID: 0}
-    - Class: 61
+    - Class: 74
       Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 109
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9348}
+      Script: {instanceID: 9364}
     - Class: 114
-      Script: {instanceID: 9350}
+      Script: {instanceID: 9366}
     - Class: 114
-      Script: {instanceID: 9356}
+      Script: {instanceID: 9372}
     - Class: 114
-      Script: {instanceID: 9362}
+      Script: {instanceID: 9378}
     - Class: 114
-      Script: {instanceID: 9370}
+      Script: {instanceID: 9386}
     - Class: 114
-      Script: {instanceID: 9406}
+      Script: {instanceID: 9422}
     - Class: 114
-      Script: {instanceID: 9450}
+      Script: {instanceID: 9786}
     - Class: 114
-      Script: {instanceID: 9768}
+      Script: {instanceID: 9976}
     - Class: 114
-      Script: {instanceID: 10016}
+      Script: {instanceID: 10140}
     - Class: 114
-      Script: {instanceID: 10112}
+      Script: {instanceID: 10150}
     - Class: 114
-      Script: {instanceID: 10122}
+      Script: {instanceID: 10554}
     - Class: 114
-      Script: {instanceID: 10272}
-    - Class: 114
-      Script: {instanceID: 10526}
-    - Class: 114
-      Script: {instanceID: 10604}
-    - Class: 114
-      Script: {instanceID: 20742}
-    - Class: 114
-      Script: {instanceID: 20748}
+      Script: {instanceID: 10632}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -120,6 +255,18 @@ ScriptsOnlyBuild:
     className: TMP_ScrollbarEventHandler
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EndgameManager
+  - hash:
+      serializedVersion: 2
+      Hash: 41468b0bd3b14358cc2dfb4d58571e6c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OutlineManager
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -130,6 +277,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: c0b4b75f310d70de0fb8643fc7fc6a35
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AnimateSprite
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -540,6 +693,12 @@ ScriptsOnlyBuild:
     className: SignalAsset
   - hash:
       serializedVersion: 2
+      Hash: 8c4ad0f544053312421864ae155a3d5a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BudiWatiManager
+  - hash:
+      serializedVersion: 2
       Hash: f08a111e17bb701f9c9ec57bb78d9920
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -618,6 +777,12 @@ ScriptsOnlyBuild:
     className: Benchmark01
   - hash:
       serializedVersion: 2
+      Hash: e6f602933668347de22991b5d207de27
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Outline
+  - hash:
+      serializedVersion: 2
       Hash: b3ab2106268377ffe25dd18ac23dca28
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -630,10 +795,28 @@ ScriptsOnlyBuild:
     className: SignalTrack
   - hash:
       serializedVersion: 2
+      Hash: 704a9481e7f8b644e6ac13ebce8da4f4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AlwaysRotate
+  - hash:
+      serializedVersion: 2
+      Hash: 67729276f684cbeb44c1756ef4515e63
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: demo1
+  - hash:
+      serializedVersion: 2
       Hash: 3375c3d749f8f4cad889721b431bdc27
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro.Examples
     className: CameraController
+  - hash:
+      serializedVersion: 2
+      Hash: ca06fd2a261c7a6d5317f7276f22f9fa
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TrashManager
   - hash:
       serializedVersion: 2
       Hash: e63944317d2f5958e31963668bb29158
@@ -652,6 +835,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MainMenuManager
   - hash:
       serializedVersion: 2
       Hash: 4fd8bf02e3089425d3502e26c44ba31a
@@ -930,6 +1119,12 @@ ScriptsOnlyBuild:
     className: TMP_SubMesh
   - hash:
       serializedVersion: 2
+      Hash: 12292fe92ddd062bafc0f74253452685
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Clicked
+  - hash:
+      serializedVersion: 2
       Hash: 8220b46879dc5e37db1b940c938f5744
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -940,19 +1135,9 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: EndgameManager
-  - hash:
-      serializedVersion: 2
-      Hash: ca06fd2a261c7a6d5317f7276f22f9fa
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: TrashManager
   platform: 13
   scenePathNames:
-  - Assets/_Scenes/SampleScene.unity
-  playerPath: C:/Users/bucky/Desktop/TrashCollector.apk
+  - Assets/_Scenes/MainMenu.unity
+  - Assets/_Scenes/KategoriSampah.unity
+  - Assets/_Scenes/Budi&Wati.unity
+  playerPath: C:/Users/KODINGSQUAD/Documents/Project/Game Edukasi/bersihitusehat.0.1.apk
