@@ -17,13 +17,6 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
-    UnityEditor.Graphs.dll:
-    - UnityEditor.Graphs.AnimationBlendTree.Graph
-    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
-    - UnityEditor.Graphs.AnimationStateMachine.Graph
-    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
@@ -54,29 +47,31 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9294}
+      Script: {instanceID: 9288}
     - Class: 114
-      Script: {instanceID: 9358}
+      Script: {instanceID: 9300}
     - Class: 114
-      Script: {instanceID: 9360}
+      Script: {instanceID: 9364}
     - Class: 114
       Script: {instanceID: 9366}
     - Class: 114
       Script: {instanceID: 9372}
     - Class: 114
-      Script: {instanceID: 9380}
+      Script: {instanceID: 9378}
     - Class: 114
-      Script: {instanceID: 9416}
+      Script: {instanceID: 9386}
     - Class: 114
-      Script: {instanceID: 9596}
+      Script: {instanceID: 9422}
     - Class: 114
-      Script: {instanceID: 9852}
+      Script: {instanceID: 9602}
     - Class: 114
-      Script: {instanceID: 10134}
+      Script: {instanceID: 9858}
     - Class: 114
-      Script: {instanceID: 10294}
+      Script: {instanceID: 10140}
     - Class: 114
-      Script: {instanceID: 10670}
+      Script: {instanceID: 10300}
+    - Class: 114
+      Script: {instanceID: 10676}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -121,31 +116,31 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9282}
+      Script: {instanceID: 9288}
     - Class: 114
-      Script: {instanceID: 9358}
-    - Class: 114
-      Script: {instanceID: 9360}
+      Script: {instanceID: 9364}
     - Class: 114
       Script: {instanceID: 9366}
     - Class: 114
       Script: {instanceID: 9372}
     - Class: 114
-      Script: {instanceID: 9380}
+      Script: {instanceID: 9378}
     - Class: 114
-      Script: {instanceID: 9416}
+      Script: {instanceID: 9386}
     - Class: 114
-      Script: {instanceID: 9460}
+      Script: {instanceID: 9422}
     - Class: 114
-      Script: {instanceID: 9924}
+      Script: {instanceID: 9466}
     - Class: 114
-      Script: {instanceID: 10038}
+      Script: {instanceID: 9930}
     - Class: 114
-      Script: {instanceID: 10134}
+      Script: {instanceID: 10044}
     - Class: 114
-      Script: {instanceID: 10294}
+      Script: {instanceID: 10140}
     - Class: 114
-      Script: {instanceID: 14054}
+      Script: {instanceID: 10300}
+    - Class: 114
+      Script: {instanceID: 14762}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -194,29 +189,29 @@ ScriptsOnlyBuild:
     - Class: 109
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9358}
-    - Class: 114
-      Script: {instanceID: 9360}
+      Script: {instanceID: 9364}
     - Class: 114
       Script: {instanceID: 9366}
     - Class: 114
       Script: {instanceID: 9372}
     - Class: 114
-      Script: {instanceID: 9380}
+      Script: {instanceID: 9378}
     - Class: 114
-      Script: {instanceID: 9416}
+      Script: {instanceID: 9386}
     - Class: 114
-      Script: {instanceID: 9780}
+      Script: {instanceID: 9422}
     - Class: 114
-      Script: {instanceID: 9970}
+      Script: {instanceID: 9786}
     - Class: 114
-      Script: {instanceID: 10134}
+      Script: {instanceID: 9976}
     - Class: 114
-      Script: {instanceID: 10144}
+      Script: {instanceID: 10140}
     - Class: 114
-      Script: {instanceID: 10548}
+      Script: {instanceID: 10150}
     - Class: 114
-      Script: {instanceID: 10626}
+      Script: {instanceID: 10554}
+    - Class: 114
+      Script: {instanceID: 10632}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1145,4 +1140,4 @@ ScriptsOnlyBuild:
   - Assets/_Scenes/MainMenu.unity
   - Assets/_Scenes/KategoriSampah.unity
   - Assets/_Scenes/Budi&Wati.unity
-  playerPath: C:/Users/KODINGSQUAD/Documents/Project/Game Edukasi/bersihitusehat.apk
+  playerPath: C:/Users/KODINGSQUAD/Documents/Project/Game Edukasi/bersihitusehat.0.1.apk

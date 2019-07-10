@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/_Scenes/Budi&Wati.unity
+- path: Assets/_Scenes/KategoriSampah.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
