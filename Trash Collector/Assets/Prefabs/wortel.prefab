@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1570088012746403873}
   - component: {fileID: 6329288267330892892}
-  - component: {fileID: 2058457883865978661}
   - component: {fileID: -1731037360858999967}
+  - component: {fileID: -5314744283079773568}
   m_Layer: 0
   m_Name: wortel
   m_TagString: organicTrash
@@ -70,7 +70,7 @@ SpriteRenderer:
   m_SortingLayerID: -2027891309
   m_SortingLayer: 3
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: a885113b55ea3fd4981a46e13f041857, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d9bad03bea474c24da76ca811d13bcd8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -81,18 +81,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2058457883865978661
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9089984762988947571}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: db25a43201c0cef498f13ef769b8fa59, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &-1731037360858999967
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -110,7 +98,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 6.8, y: 2.27}
+    oldSize: {x: 12, y: 12}
     newSize: {x: 6.8, y: 2.27}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -119,3 +107,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 6.8, y: 2.27}
   m_EdgeRadius: 0
+--- !u!114 &-5314744283079773568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9089984762988947571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db25a43201c0cef498f13ef769b8fa59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OrganicBinAnimator: {fileID: 0}
+  AnorganicBinAnimator: {fileID: 0}

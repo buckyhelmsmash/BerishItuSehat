@@ -10,6 +10,10 @@ public class EndgameManager : MonoBehaviour
     {
         SceneManager.LoadScene("KategoriSampah");
     }
+    public void MainMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
     public void ExitGame()
     {
         Application.Quit();

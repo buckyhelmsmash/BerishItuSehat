@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7715512238766756767}
   - component: {fileID: 8888083921779800069}
-  - component: {fileID: 1565551257365165806}
   - component: {fileID: -5428897328517961802}
+  - component: {fileID: 7241047287214254469}
   m_Layer: 0
   m_Name: plastik putih dan merah
   m_TagString: anorganicTrash
@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 8815022595798576583}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.06, y: -2.39, z: 0}
-  m_LocalScale: {x: 0.222, y: 0.222, z: 0.222}
+  m_LocalScale: {x: 0.116328, y: 0.116328, z: 0.222}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -70,7 +70,7 @@ SpriteRenderer:
   m_SortingLayerID: -2027891309
   m_SortingLayer: 3
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: d85d1b93b617f63438f4919be3d80e40, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5ce5341fbf0ae1d4abd6584bef7f2f22, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -81,18 +81,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1565551257365165806
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8815022595798576583}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: db25a43201c0cef498f13ef769b8fa59, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &-5428897328517961802
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -106,16 +94,30 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.04264307, y: -0.59528494}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 10.39, y: 4.72}
+    oldSize: {x: 12, y: 12}
     newSize: {x: 10.39, y: 4.72}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 10.39, y: 4.72}
+  m_Size: {x: 3.822579, y: 9.358588}
   m_EdgeRadius: 0
+--- !u!114 &7241047287214254469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8815022595798576583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db25a43201c0cef498f13ef769b8fa59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OrganicBinAnimator: {fileID: 0}
+  AnorganicBinAnimator: {fileID: 0}

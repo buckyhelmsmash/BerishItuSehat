@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 3875945918929872225}
   - component: {fileID: 7667482625228029088}
-  - component: {fileID: 7786357781947416105}
   - component: {fileID: -800843034143176342}
+  - component: {fileID: -7189139513174678681}
   m_Layer: 0
   m_Name: kotak makanan3
   m_TagString: anorganicTrash
@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 85350570519374118}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.213, y: -2.793, z: 0}
-  m_LocalScale: {x: 0.45160502, y: 0.45160502, z: 0.45160502}
+  m_LocalScale: {x: 0.14081542, y: 0.10011189, z: 0.37644893}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -70,7 +70,7 @@ SpriteRenderer:
   m_SortingLayerID: -2027891309
   m_SortingLayer: 3
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: d6df3fbdc7099b34b85f624b3d81bfff, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ac0dcc2fe6f700448888ac9e6ad61b2e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -81,18 +81,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &7786357781947416105
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 85350570519374118}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: db25a43201c0cef498f13ef769b8fa59, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &-800843034143176342
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -106,16 +94,30 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.5898979}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.2, y: 2.38}
+    oldSize: {x: 12, y: 12}
     newSize: {x: 3.2, y: 2.38}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.2, y: 2.38}
+  m_Size: {x: 3.2, y: 11.425034}
   m_EdgeRadius: 0
+--- !u!114 &-7189139513174678681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 85350570519374118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db25a43201c0cef498f13ef769b8fa59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OrganicBinAnimator: {fileID: 0}
+  AnorganicBinAnimator: {fileID: 0}

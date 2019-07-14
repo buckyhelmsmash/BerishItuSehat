@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7498997387885657658}
   - component: {fileID: -4822158584690056182}
   - component: {fileID: 6057309458462975264}
+  - component: {fileID: 128368006832252579}
   m_Layer: 0
   m_Name: paprika kuning 2
   m_TagString: organicTrash
@@ -93,6 +94,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db25a43201c0cef498f13ef769b8fa59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OrganicBinAnimator: {fileID: 0}
+  AnorganicBinAnimator: {fileID: 0}
 --- !u!61 &6057309458462975264
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -119,3 +122,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.77, y: 2.38}
   m_EdgeRadius: 0
+--- !u!114 &128368006832252579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6116093979122883913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db25a43201c0cef498f13ef769b8fa59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OrganicBinAnimator: {fileID: 0}
+  AnorganicBinAnimator: {fileID: 0}

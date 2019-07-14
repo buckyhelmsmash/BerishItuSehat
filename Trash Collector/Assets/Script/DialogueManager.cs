@@ -7,6 +7,7 @@ public class DialogueManager : MonoBehaviour
 {
     public TextMeshProUGUI textDisplay;
     public string[] sentences;
+    public AudioSource[] dialog;
     private int index;
     public float typingSpeed;
     public GameObject continueButton;
@@ -25,11 +26,14 @@ public class DialogueManager : MonoBehaviour
         if (textDisplay.text == sentences[index])
         {
             continueButton.SetActive(true);
+            if (Input.GetMouseButtonDown(0))
+                NextSentence();
         }
     }
 
     IEnumerator Type()
     {
+        dialog[index].Play();
         foreach (char letter in sentences[index].ToCharArray())
         {
             textDisplay.text += letter;
@@ -47,13 +51,14 @@ public class DialogueManager : MonoBehaviour
         }
         else
         {
+            dialog[4].Play();
             textDisplay.text = "";
             dialogueBox.SetActive(false);
             TrashCollider = Trash.GetComponentsInChildren<BoxCollider2D>();
             for (var index = 0; index < TrashCollider.Length; index++)
             {
                 TrashCollider[index].enabled = true;
-                
+
             }
 
         }

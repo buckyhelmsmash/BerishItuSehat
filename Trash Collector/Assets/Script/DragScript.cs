@@ -7,15 +7,24 @@ public class DragScript : MonoBehaviour
 {
     private Vector2 initialPosition, mousePosition;
     private float deltaX, deltaY;
-    private Vector2 Bin;
-
-
+    private GameObject Bin;
+    private GameObject OppositeBin;
+    public GameObject OrganicBin;
+    public GameObject AnorganicBin;
+    public AudioSource goodjob;
     private void Start()
     {
         if (gameObject.tag == "organicTrash")
-            Bin = GameObject.FindWithTag("organicBin").transform.position;
+        {
+            Bin = OrganicBin;
+            OppositeBin = AnorganicBin;
+        }
         else
-            Bin = GameObject.FindWithTag("anorganicBin").transform.position;
+        {
+            Bin = AnorganicBin;
+            OppositeBin = OrganicBin;
+        }
+
         initialPosition = transform.position;
     }
 
@@ -33,11 +42,18 @@ public class DragScript : MonoBehaviour
 
     private void OnMouseUp()
     {
-        if (Mathf.Abs(transform.position.x - Bin.x) <= 5f / 6f &&
-            Mathf.Abs(transform.position.y - Bin.y) <= 9f / 10f)
+        if (Mathf.Abs(transform.position.x - Bin.transform.position.x) <= 5f / 6f &&
+            Mathf.Abs(transform.position.y - Bin.transform.position.y) <= 9f / 10f)
         {
-            transform.position = Bin;
-            Destroy(gameObject);
+            Debug.Log("benar");
+            StartCoroutine(BinAnimateHappy());
+            goodjob.Play();
+        }
+        else if (Mathf.Abs(transform.position.x - OppositeBin.transform.position.x) <= 5f / 6f &&
+            Mathf.Abs(transform.position.y - OppositeBin.transform.position.y) <= 9f / 10f)
+        {
+            Debug.Log("Salah");
+            StartCoroutine(BinAnimateSad());
         }
         else
         {
@@ -45,4 +61,24 @@ public class DragScript : MonoBehaviour
         }
 
     }
+    IEnumerator BinAnimateHappy()
+    {
+        Bin.GetComponent<Animator>().SetBool("Happy", true);
+        transform.position = Bin.transform.position;
+        gameObject.GetComponent<SpriteRenderer>().enabled = false;
+        yield return new WaitForSeconds(1);
+        Bin.GetComponent<Animator>().SetBool("Happy", false);
+        Destroy(gameObject);
+    }
+
+    IEnumerator BinAnimateSad()
+    {
+        OppositeBin.GetComponent<Animator>().SetBool("Sad", true);
+        transform.position = initialPosition;
+        yield return new WaitForSeconds(1);
+        OppositeBin.GetComponent<Animator>().SetBool("Sad", false);
+    }
+
+
+
 }

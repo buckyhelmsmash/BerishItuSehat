@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 8025953042677274876}
   - component: {fileID: 1963434893938430388}
-  - component: {fileID: 7687267425287804424}
   - component: {fileID: -5383750681901813754}
+  - component: {fileID: -8370611382019009895}
   m_Layer: 0
   m_Name: plastik biru
   m_TagString: anorganicTrash
@@ -70,7 +70,7 @@ SpriteRenderer:
   m_SortingLayerID: -2027891309
   m_SortingLayer: 3
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: 5a45374715027ea4b9607b18fc4b2e38, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1a9287a83cb03934faab06049a68b160, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -81,18 +81,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &7687267425287804424
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6269583015859961260}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: db25a43201c0cef498f13ef769b8fa59, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &-5383750681901813754
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -106,16 +94,30 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.19889331, y: -0.30219066}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 6.69, y: 3.86}
+    oldSize: {x: 12, y: 12}
     newSize: {x: 6.69, y: 3.86}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 6.69, y: 3.86}
+  m_Size: {x: 2.4753494, y: 6.197896}
   m_EdgeRadius: 0
+--- !u!114 &-8370611382019009895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6269583015859961260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db25a43201c0cef498f13ef769b8fa59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OrganicBinAnimator: {fileID: 0}
+  AnorganicBinAnimator: {fileID: 0}

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6611955837377293539}
   - component: {fileID: 1982825450812172813}
   - component: {fileID: -1762622660363234444}
+  - component: {fileID: 6896747662603185257}
   m_Layer: 0
   m_Name: kotak makanan1
   m_TagString: anorganicTrash
@@ -93,6 +94,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db25a43201c0cef498f13ef769b8fa59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OrganicBinAnimator: {fileID: 0}
+  AnorganicBinAnimator: {fileID: 0}
 --- !u!61 &-1762622660363234444
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -119,3 +122,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 6.05, y: 4.62}
   m_EdgeRadius: 0
+--- !u!114 &6896747662603185257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5877984535219658886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db25a43201c0cef498f13ef769b8fa59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OrganicBinAnimator: {fileID: 0}
+  AnorganicBinAnimator: {fileID: 0}

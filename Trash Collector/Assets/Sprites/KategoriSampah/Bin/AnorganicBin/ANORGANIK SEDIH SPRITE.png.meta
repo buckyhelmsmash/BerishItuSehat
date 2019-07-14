@@ -1,0 +1,328 @@
+fileFormatVersion: 2
+guid: e155ac540ebf518459f65a118b91d4d7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4967958957207152133
+    second: ANORGANIK SEDIH SPRITE_0
+  - first:
+      213: -1127514694981515249
+    second: ANORGANIK SEDIH SPRITE_1
+  - first:
+      213: -4643189191337603811
+    second: ANORGANIK SEDIH SPRITE_2
+  - first:
+      213: 7219153773304608363
+    second: ANORGANIK SEDIH SPRITE_3
+  - first:
+      213: 2962099207103286355
+    second: ANORGANIK SEDIH SPRITE_4
+  - first:
+      213: 5923060320367851061
+    second: ANORGANIK SEDIH SPRITE_5
+  - first:
+      213: 1093882473012913168
+    second: ANORGANIK SEDIH SPRITE_6
+  - first:
+      213: 1270304489359312626
+    second: ANORGANIK SEDIH SPRITE_7
+  - first:
+      213: 47195538666737179
+    second: ANORGANIK SEDIH SPRITE_8
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ANORGANIK SEDIH SPRITE_0
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 235
+        width: 590
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fddea56d32a63145a8c24df1e773f63
+      internalID: 4967958957207152133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANORGANIK SEDIH SPRITE_1
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 235
+        width: 629
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6962fd82e08f7f04391b16ac56e5afef
+      internalID: -1127514694981515249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANORGANIK SEDIH SPRITE_2
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 235
+        width: 638
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a827d785e8f62184287ffdda88145841
+      internalID: -4643189191337603811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANORGANIK SEDIH SPRITE_3
+      rect:
+        serializedVersion: 2
+        x: 2132
+        y: 235
+        width: 675
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8817cf26ff701647879f8cf34b43ca8
+      internalID: 7219153773304608363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANORGANIK SEDIH SPRITE_4
+      rect:
+        serializedVersion: 2
+        x: 2801
+        y: 235
+        width: 638
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b367f628e0be1264b9fd0aa7d3db7a47
+      internalID: 2962099207103286355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANORGANIK SEDIH SPRITE_5
+      rect:
+        serializedVersion: 2
+        x: 3433
+        y: 235
+        width: 674
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04d3710f9d2a16a4cad1b3cc5dad9e27
+      internalID: 5923060320367851061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANORGANIK SEDIH SPRITE_6
+      rect:
+        serializedVersion: 2
+        x: 4101
+        y: 235
+        width: 638
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 277caafff5fa1684d86a13a59f999982
+      internalID: 1093882473012913168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANORGANIK SEDIH SPRITE_7
+      rect:
+        serializedVersion: 2
+        x: 4731
+        y: 235
+        width: 677
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f23ddd8e9d1534e8fb8c69a4935edd
+      internalID: 1270304489359312626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANORGANIK SEDIH SPRITE_8
+      rect:
+        serializedVersion: 2
+        x: 5399
+        y: 235
+        width: 629
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e326ef52e1786dd4593118105d4e02fd
+      internalID: 47195538666737179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 46401adcfeb9e6749aeec315e41d58bc
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

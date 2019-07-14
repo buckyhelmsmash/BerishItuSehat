@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7446663332262229162}
   - component: {fileID: 7446663332262229163}
-  - component: {fileID: 2204198368293958379}
   - component: {fileID: 6982823936142668732}
+  - component: {fileID: -5205795992470420974}
   m_Layer: 0
   m_Name: ayam
   m_TagString: organicTrash
@@ -70,7 +70,7 @@ SpriteRenderer:
   m_SortingLayerID: -2027891309
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: b7416fdf690e1334f97ffcafecbfab9a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 86295980707b2ff49914df9f05e850a6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -81,18 +81,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2204198368293958379
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7446663332262229161}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: db25a43201c0cef498f13ef769b8fa59, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &6982823936142668732
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -110,7 +98,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 5, y: 8.94}
+    oldSize: {x: 12, y: 12}
     newSize: {x: 5, y: 8.94}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -119,3 +107,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 5, y: 8.94}
   m_EdgeRadius: 0
+--- !u!114 &-5205795992470420974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7446663332262229161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db25a43201c0cef498f13ef769b8fa59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OrganicBinAnimator: {fileID: 0}
+  AnorganicBinAnimator: {fileID: 0}

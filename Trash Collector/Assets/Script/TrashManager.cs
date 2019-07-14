@@ -6,17 +6,14 @@ public class TrashManager : MonoBehaviour
 {
 
     public GameObject EndgameBox;
+    public GameObject Stars;
     // Update is called once per frame
     void Update()
     {
         if (GameObject.FindWithTag("organicTrash") == null && GameObject.FindWithTag("anorganicTrash") == null)
         {
-            Debug.Log("TIDAK ADA SAMPAH");
             EndgameBox.SetActive(true);
-        }
-        else
-        {
-            Debug.Log("ADA SAMPAH");
+            Stars.SetActive(true);
         }
     }
 }

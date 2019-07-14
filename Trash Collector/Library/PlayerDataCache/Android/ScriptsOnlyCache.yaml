@@ -17,6 +17,14 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
+    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
@@ -107,11 +115,17 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 61
       Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 82
       Script: {instanceID: 0}
     - Class: 83
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -140,7 +154,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10300}
     - Class: 114
-      Script: {instanceID: 14762}
+      Script: {instanceID: 16492}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1140,4 +1154,4 @@ ScriptsOnlyBuild:
   - Assets/_Scenes/MainMenu.unity
   - Assets/_Scenes/KategoriSampah.unity
   - Assets/_Scenes/Budi&Wati.unity
-  playerPath: C:/Users/KODINGSQUAD/Documents/Project/Game Edukasi/bersihitusehat.0.1.apk
+  playerPath: C:/Users/bucky/Desktop/TrashCollector.apk
