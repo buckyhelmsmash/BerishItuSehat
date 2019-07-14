@@ -12,6 +12,7 @@ public class DragScript : MonoBehaviour
     public GameObject OrganicBin;
     public GameObject AnorganicBin;
     public AudioSource goodjob;
+    public AudioSource crybaby;
     private void Start()
     {
         if (gameObject.tag == "organicTrash")
@@ -54,6 +55,7 @@ public class DragScript : MonoBehaviour
         {
             Debug.Log("Salah");
             StartCoroutine(BinAnimateSad());
+            crybaby.Play();
         }
         else
         {

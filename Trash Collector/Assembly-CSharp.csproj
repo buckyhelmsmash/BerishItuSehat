@@ -62,11 +62,14 @@
      <Compile Include="Assets\2DOutline\Scripts\OutlineManager.cs" />
      <Compile Include="Assets\Script\BudiWatiManager.cs" />
      <Compile Include="Assets\Script\Clicked.cs" />
+     <Compile Include="Assets\Script\DialogManagerBudiWati.cs" />
      <Compile Include="Assets\Script\Dialogue.cs" />
      <Compile Include="Assets\Script\DialogueManager.cs" />
      <Compile Include="Assets\Script\DragScript.cs" />
      <Compile Include="Assets\Script\EndgameManager.cs" />
      <Compile Include="Assets\Script\MainMenuManager.cs" />
+     <Compile Include="Assets\Script\Run.cs" />
+     <Compile Include="Assets\Script\SpriteOutline.cs" />
      <Compile Include="Assets\Script\TrashManager.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />

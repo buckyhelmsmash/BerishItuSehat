@@ -119,5 +119,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db25a43201c0cef498f13ef769b8fa59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OrganicBinAnimator: {fileID: 0}
-  AnorganicBinAnimator: {fileID: 0}
+  OrganicBin: {fileID: 0}
+  AnorganicBin: {fileID: 0}
+  goodjob: {fileID: 0}
+  crybaby: {fileID: 0}

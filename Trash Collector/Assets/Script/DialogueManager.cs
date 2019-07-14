@@ -58,7 +58,6 @@ public class DialogueManager : MonoBehaviour
             for (var index = 0; index < TrashCollider.Length; index++)
             {
                 TrashCollider[index].enabled = true;
-
             }
 
         }

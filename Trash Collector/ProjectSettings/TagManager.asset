@@ -10,6 +10,12 @@ TagManager:
   - organicTrash
   - anorganicTrash
   - Trash
+  - Halaman
+  - Jalan
+  - banana
+  - Budi
+  - BGHALAMAN
+  - BGJALAN
   layers:
   - Default
   - TransparentFX

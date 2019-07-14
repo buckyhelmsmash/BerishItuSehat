@@ -1,0 +1,328 @@
+fileFormatVersion: 2
+guid: b950759b87734974d995b480c3e93c81
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1492593362911823031
+    second: BUDI LARI SPRITE FINAL_0
+  - first:
+      213: 7746112855068202948
+    second: BUDI LARI SPRITE FINAL_1
+  - first:
+      213: 225747468013963560
+    second: BUDI LARI SPRITE FINAL_2
+  - first:
+      213: -1695338613153389775
+    second: BUDI LARI SPRITE FINAL_3
+  - first:
+      213: 3679571409115814444
+    second: BUDI LARI SPRITE FINAL_4
+  - first:
+      213: -765658925978098601
+    second: BUDI LARI SPRITE FINAL_5
+  - first:
+      213: 2699096870523479300
+    second: BUDI LARI SPRITE FINAL_6
+  - first:
+      213: 1043863528944713548
+    second: BUDI LARI SPRITE FINAL_7
+  - first:
+      213: -7837995864022953936
+    second: BUDI LARI SPRITE FINAL_8
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BUDI LARI SPRITE FINAL_0
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 11
+        width: 369
+        height: 430
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e9d48c92765bd24eb3a1e817001d3bf
+      internalID: 1492593362911823031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BUDI LARI SPRITE FINAL_1
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 32
+        width: 396
+        height: 447
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3928bcd9842b715449acd5d8769ac37f
+      internalID: 7746112855068202948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BUDI LARI SPRITE FINAL_2
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 12
+        width: 389
+        height: 429
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a00fb49122d321b4ab47bb4bc23684a5
+      internalID: 225747468013963560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BUDI LARI SPRITE FINAL_3
+      rect:
+        serializedVersion: 2
+        x: 1481
+        y: 29
+        width: 399
+        height: 445
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2277969220538c74d88078f84226b137
+      internalID: -1695338613153389775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BUDI LARI SPRITE FINAL_4
+      rect:
+        serializedVersion: 2
+        x: 2061
+        y: 14
+        width: 369
+        height: 427
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa14404982310c2499eb3d14131b329d
+      internalID: 3679571409115814444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BUDI LARI SPRITE FINAL_5
+      rect:
+        serializedVersion: 2
+        x: 2537
+        y: 34
+        width: 395
+        height: 445
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b0a83218016dd4b820a85cd3c9c269
+      internalID: -765658925978098601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BUDI LARI SPRITE FINAL_6
+      rect:
+        serializedVersion: 2
+        x: 3059
+        y: 11
+        width: 389
+        height: 427
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 971178705639f414797d55e6c3bd1396
+      internalID: 2699096870523479300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BUDI LARI SPRITE FINAL_7
+      rect:
+        serializedVersion: 2
+        x: 3502
+        y: 29
+        width: 399
+        height: 445
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 062a62508b1e86b429286a19a875308e
+      internalID: 1043863528944713548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BUDI LARI SPRITE FINAL_8
+      rect:
+        serializedVersion: 2
+        x: 3970
+        y: 11
+        width: 369
+        height: 430
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f56819cbceee04486ad215e284a114
+      internalID: -7837995864022953936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5ad1936d52990e149949fd4377c15164
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
