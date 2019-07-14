@@ -5,7 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class EndgameManager : MonoBehaviour
 {
+    public AudioSource Applause;
     // Start is called before the first frame update
+    private void Start()
+    {
+        Applause.Play();
+    }
     public void RestartGame()
     {
         SceneManager.LoadScene("KategoriSampah");

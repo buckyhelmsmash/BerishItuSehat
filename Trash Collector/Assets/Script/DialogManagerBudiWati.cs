@@ -9,6 +9,7 @@ public class DialogManagerBudiWati : MonoBehaviour
     public TextMeshProUGUI GameHintText;
     public string[] sentences;
     public AudioSource[] dialog;
+    public AudioSource nyam;
     private int index;
     public float typingSpeed;
     public GameObject continueButton;
@@ -20,7 +21,7 @@ public class DialogManagerBudiWati : MonoBehaviour
 
     void Start()
     {
-        Camera.transform.position = new Vector3(3, 0, -10);
+        Camera.transform.position = new Vector3(3, -1.25f, -10);
         Camera.GetComponent<Camera>().orthographicSize = 2.5F;
         GameHintText.enabled = false;
         StartCoroutine(Type());
@@ -74,6 +75,7 @@ public class DialogManagerBudiWati : MonoBehaviour
             {
                 Gameplay.GetComponentsInChildren<Clicked>()[index].enabled = true;
             }
+            nyam.Play();
         }
     }
 }

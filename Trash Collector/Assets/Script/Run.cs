@@ -10,6 +10,7 @@ public class Run : MonoBehaviour
     public GameObject EndBox;
     public GameObject LoseText;
     public AudioSource Sad;
+    public AudioSource belum_benar;
     public AudioSource Aduh;
 
     void Start()
@@ -37,6 +38,7 @@ public class Run : MonoBehaviour
             EndBox.SetActive(true);
             LoseText.SetActive(false);
             Sad.Play();
+            belum_benar.Play();
         }
     }
 }

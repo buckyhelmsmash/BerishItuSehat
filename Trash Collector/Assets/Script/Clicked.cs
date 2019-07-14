@@ -13,8 +13,11 @@ public class Clicked : MonoBehaviour
     public AudioSource Apllause;
     public AudioSource Help;
     public AudioSource dimanakah;
+    public AudioSource benar;
+    public AudioSource nyam;
     private void OnMouseDown()
     {
+        nyam.Stop();
         dimanakah.Stop();
         GameHintText.SetActive(false);
         this.GetComponent<Renderer>().material.color = Color.gray;
@@ -24,6 +27,7 @@ public class Clicked : MonoBehaviour
             Stars.SetActive(true);
             WinText.SetActive(false);
             Apllause.Play();
+            benar.Play();
         }
         else if (gameObject.tag == "Jalan")
         {
