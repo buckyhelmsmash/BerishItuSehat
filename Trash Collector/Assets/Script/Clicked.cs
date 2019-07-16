@@ -15,6 +15,7 @@ public class Clicked : MonoBehaviour
     public AudioSource dimanakah;
     public AudioSource benar;
     public AudioSource nyam;
+    public GameObject Gameplay;
     private void OnMouseDown()
     {
         nyam.Stop();
@@ -48,6 +49,10 @@ public class Clicked : MonoBehaviour
             {
                 Budi_Run.GetComponentsInChildren<Run>()[index].enabled = true;
             }
+        }
+        for (var index = 0; index < Gameplay.GetComponentsInChildren<PolygonCollider2D>().Length; index++)
+        {
+            Gameplay.GetComponentsInChildren<PolygonCollider2D>()[index].enabled = false;
         }
     }
 

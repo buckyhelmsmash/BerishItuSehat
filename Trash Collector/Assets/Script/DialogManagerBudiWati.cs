@@ -65,7 +65,6 @@ public class DialogManagerBudiWati : MonoBehaviour
             dialogueBox.SetActive(false);
             Camera.transform.position = new Vector3(0, 0, -10);
             Camera.GetComponent<Camera>().orthographicSize = 5F;
-            Camera.GetComponent<OutlineManager>().enabled = true;
             GameHintText.enabled = true;
             for (var index = 0; index < Gameplay.GetComponentsInChildren<PolygonCollider2D>().Length; index++)
             {
@@ -74,6 +73,10 @@ public class DialogManagerBudiWati : MonoBehaviour
             for (var index = 0; index < Gameplay.GetComponentsInChildren<Clicked>().Length; index++)
             {
                 Gameplay.GetComponentsInChildren<Clicked>()[index].enabled = true;
+            }
+            for (var index = 0; index < Gameplay.GetComponentsInChildren<Animator>().Length; index++)
+            {
+                Gameplay.GetComponentsInChildren<Animator>()[index].SetBool("blink", true);
             }
             nyam.Play();
         }

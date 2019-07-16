@@ -60,6 +60,7 @@
      <Compile Include="Assets\2DOutline\Scripts\demo1.cs" />
      <Compile Include="Assets\2DOutline\Scripts\Outline.cs" />
      <Compile Include="Assets\2DOutline\Scripts\OutlineManager.cs" />
+     <Compile Include="Assets\Pisang.cs" />
      <Compile Include="Assets\Script\BudiWatiManager.cs" />
      <Compile Include="Assets\Script\Clicked.cs" />
      <Compile Include="Assets\Script\DialogManagerBudiWati.cs" />
