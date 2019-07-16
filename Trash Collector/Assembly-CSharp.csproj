@@ -69,6 +69,7 @@
      <Compile Include="Assets\Script\EndgameManager.cs" />
      <Compile Include="Assets\Script\MainMenuManager.cs" />
      <Compile Include="Assets\Script\Run.cs" />
+     <Compile Include="Assets\Script\ScoreManager.cs" />
      <Compile Include="Assets\Script\SpriteOutline.cs" />
      <Compile Include="Assets\Script\TrashManager.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />

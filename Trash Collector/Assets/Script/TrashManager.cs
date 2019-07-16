@@ -5,7 +5,8 @@ using UnityEngine;
 public class TrashManager : MonoBehaviour
 {
 
-    public GameObject EndgameBox;
+    public GameObject Endgame;
+    public GameObject Ingame;
     public GameObject Stars;
 
     // Update is called once per frame
@@ -13,7 +14,8 @@ public class TrashManager : MonoBehaviour
     {
         if (GameObject.FindWithTag("organicTrash") == null && GameObject.FindWithTag("anorganicTrash") == null)
         {
-            EndgameBox.SetActive(true);
+            Endgame.SetActive(true);
+            Ingame.SetActive(false);
             Stars.SetActive(true);
         }
     }

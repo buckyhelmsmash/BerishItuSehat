@@ -65,6 +65,7 @@ public class DragScript : MonoBehaviour
     }
     IEnumerator BinAnimateHappy()
     {
+        ScoreManager.scorevalue += 10;
         Bin.GetComponent<Animator>().SetBool("Happy", true);
         transform.position = Bin.transform.position;
         gameObject.GetComponent<SpriteRenderer>().enabled = false;
@@ -75,6 +76,7 @@ public class DragScript : MonoBehaviour
 
     IEnumerator BinAnimateSad()
     {
+        ScoreManager.scorevalue -= 1;
         OppositeBin.GetComponent<Animator>().SetBool("Sad", true);
         transform.position = initialPosition;
         yield return new WaitForSeconds(1);
