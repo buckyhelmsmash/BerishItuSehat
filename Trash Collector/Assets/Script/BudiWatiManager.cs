@@ -24,4 +24,5 @@ public class BudiWatiManager : MonoBehaviour
     {
         Application.Quit();
     }
+
 }
