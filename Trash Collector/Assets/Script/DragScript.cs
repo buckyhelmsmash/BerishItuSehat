@@ -15,6 +15,8 @@ public class DragScript : MonoBehaviour
     public AudioSource crybaby;
     private void Start()
     {
+        
+        
         if (gameObject.tag == "organicTrash")
         {
             Bin = OrganicBin;
@@ -76,7 +78,7 @@ public class DragScript : MonoBehaviour
 
     IEnumerator BinAnimateSad()
     {
-        ScoreManager.scorevalue -= 1;
+        ScoreManager.scorevalue -= 10;
         OppositeBin.GetComponent<Animator>().SetBool("Sad", true);
         transform.position = initialPosition;
         yield return new WaitForSeconds(1);

@@ -13,10 +13,11 @@ public class ScoreManager : MonoBehaviour
     public GameObject LeaderboardPanel;
     bool Show_Panel = false;
     // Start is called before the first frame update
+   
     void Start()
     {
         ScoreDisplay.text = "Score: " + scorevalue;
-        HighscoreDisplay.text = "Highscore: " + PlayerPrefs.GetInt("Highscore", 0);
+        HighscoreDisplay.text = "Highscore" ;
         // PlayerPrefs.SetInt("Highscore1", 123);
         // PlayerPrefs.SetInt("Highscore2", 45);
         // PlayerPrefs.SetInt("Highscore3", 123);
@@ -35,11 +36,11 @@ public class ScoreManager : MonoBehaviour
     void Update()
     {
         ScoreDisplay.text = "Score: " + scorevalue;
-        if (scorevalue > PlayerPrefs.GetInt("Highscore"))
-        {
-            PlayerPrefs.SetInt("Highscore", scorevalue);
-            HighscoreDisplay.text = "Highscore: " + PlayerPrefs.GetInt("Highscore", 0);
-        }
+        // if (scorevalue > PlayerPrefs.GetInt("Highscore"))
+        // {
+        //     PlayerPrefs.SetInt("Highscore", scorevalue);
+        //     HighscoreDisplay.text = "Highscore: " + PlayerPrefs.GetInt("Highscore", 0);
+        // }
     }
 
     void getLeaderboardtoList()
