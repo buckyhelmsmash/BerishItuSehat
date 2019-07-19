@@ -8,9 +8,13 @@ public class TrashManager : MonoBehaviour
     public GameObject Endgame;
     public GameObject Ingame;
     public GameObject Stars;
-    bool gameFinished = false;
+    public bool gameFinished = false;
 
     // Update is called once per frame
+    void Start()
+    {
+        gameFinished = false;
+    }
     void Update()
     {
         if (!gameFinished)

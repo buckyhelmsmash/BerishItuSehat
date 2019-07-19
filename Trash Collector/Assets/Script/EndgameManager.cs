@@ -22,13 +22,17 @@ public class EndgameManager : MonoBehaviour
     public void RestartGame()
     {
         SceneManager.LoadScene("KategoriSampah");
+        ScoreManager.Leaderboard.Clear();
+
     }
     public void MainMenu()
     {
         SceneManager.LoadScene("MainMenu");
+        ScoreManager.Leaderboard.Clear();
     }
     public void ExitGame()
     {
         Application.Quit();
+        ScoreManager.Leaderboard.Clear();
     }
 }
