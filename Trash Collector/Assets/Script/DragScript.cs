@@ -76,7 +76,7 @@ public class DragScript : MonoBehaviour
 
     IEnumerator BinAnimateSad()
     {
-        ScoreManager.scorevalue -= 1;
+        ScoreManager.scorevalue -= 10;
         OppositeBin.GetComponent<Animator>().SetBool("Sad", true);
         transform.position = initialPosition;
         yield return new WaitForSeconds(1);
