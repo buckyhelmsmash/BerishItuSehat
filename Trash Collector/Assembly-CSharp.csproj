@@ -65,6 +65,7 @@
      <Compile Include="Assets\Script\DragScript.cs" />
      <Compile Include="Assets\Script\EndgameManager.cs" />
      <Compile Include="Assets\Script\MainMenuManager.cs" />
+     <Compile Include="Assets\Script\RandomPosition.cs" />
      <Compile Include="Assets\Script\Run.cs" />
      <Compile Include="Assets\Script\ScoreManager.cs" />
      <Compile Include="Assets\Script\SpriteOutline.cs" />
@@ -127,25 +128,25 @@
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>C:/Users/bucky/Documents/GitHub/BerishItuSehat/Trash Collector/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>C:/Users/KODINGSQUAD/Documents/Project/Game Edukasi/BerishItuSehat/Trash Collector/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/bucky/Documents/GitHub/BerishItuSehat/Trash Collector/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/KODINGSQUAD/Documents/Project/Game Edukasi/BerishItuSehat/Trash Collector/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>C:/Users/bucky/Documents/GitHub/BerishItuSehat/Trash Collector/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>C:/Users/KODINGSQUAD/Documents/Project/Game Edukasi/BerishItuSehat/Trash Collector/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>C:/Users/bucky/Documents/GitHub/BerishItuSehat/Trash Collector/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>C:/Users/KODINGSQUAD/Documents/Project/Game Edukasi/BerishItuSehat/Trash Collector/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>C:/Users/bucky/Documents/GitHub/BerishItuSehat/Trash Collector/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>C:/Users/KODINGSQUAD/Documents/Project/Game Edukasi/BerishItuSehat/Trash Collector/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/bucky/Documents/GitHub/BerishItuSehat/Trash Collector/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/KODINGSQUAD/Documents/Project/Game Edukasi/BerishItuSehat/Trash Collector/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.DataPrivacy">
- <HintPath>C:/Users/bucky/Documents/GitHub/BerishItuSehat/Trash Collector/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+ <HintPath>C:/Users/KODINGSQUAD/Documents/Project/Game Edukasi/BerishItuSehat/Trash Collector/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -324,14 +325,17 @@
  <Reference Include="nunit.framework">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.8f1/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
+ <Reference Include="Vuforia.UnityExtensions">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.8f1/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.Analytics.Editor">
- <HintPath>C:/Users/bucky/Documents/GitHub/BerishItuSehat/Trash Collector/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
+ <HintPath>C:/Users/KODINGSQUAD/Documents/Project/Game Edukasi/BerishItuSehat/Trash Collector/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.StandardEvents">
- <HintPath>C:/Users/bucky/Documents/GitHub/BerishItuSehat/Trash Collector/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
+ <HintPath>C:/Users/KODINGSQUAD/Documents/Project/Game Edukasi/BerishItuSehat/Trash Collector/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Tracker">
- <HintPath>C:/Users/bucky/Documents/GitHub/BerishItuSehat/Trash Collector/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
+ <HintPath>C:/Users/KODINGSQUAD/Documents/Project/Game Edukasi/BerishItuSehat/Trash Collector/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.8f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
