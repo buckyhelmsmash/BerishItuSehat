@@ -65,6 +65,7 @@
      <Compile Include="Assets\Script\DragScript.cs" />
      <Compile Include="Assets\Script\EndgameManager.cs" />
      <Compile Include="Assets\Script\MainMenuManager.cs" />
+     <Compile Include="Assets\Script\RandomPosition.cs" />
      <Compile Include="Assets\Script\Run.cs" />
      <Compile Include="Assets\Script\ScoreManager.cs" />
      <Compile Include="Assets\Script\SpriteOutline.cs" />
